@@ -19,7 +19,7 @@ const data = [
     image: IMG2,
     title: 'FitSport',
     github: 'https://github.com/Akashx1550/FitSport',
-    demo: '',
+    demo: 'https://github.com/Akashx1550/FitSport',
   },
 
   {
@@ -35,14 +35,14 @@ const data = [
     image: IMG4,
     title: 'Live COVID Tracker',
     github: 'https://github.com/Akashx1550/Live-COVID-19-Tracker',
-    demo: '',
+    demo: 'https://github.com/Akashx1550/Live-COVID-19-Tracker',
   }
 ]
 
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
+      <h4>My Recent Work</h4>
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
