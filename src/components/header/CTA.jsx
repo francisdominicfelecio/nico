@@ -6,7 +6,7 @@ const CTA = () => {
     const [activeNav, setActiveNav] = useState('#')
     return (
         <div className='cta'>
-        <a href='' download className='btn'>Download CV</a>
+        <a href='#' className='btn'>Download CV</a>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
     )

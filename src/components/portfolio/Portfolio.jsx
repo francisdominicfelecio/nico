@@ -34,8 +34,8 @@ const data = [
     id:4,
     image: IMG4,
     title: 'Live COVID Tracker',
-    github: 'https://github.com/Akashx1550/Live-COVID-19-Tracker',
-    demo: 'https://github.com/Akashx1550/Live-COVID-19-Tracker',
+    github: 'https://github.com/Akashx1550/COVID-19-Live-Tracker',
+    demo: 'https://akashx1550.github.io/COVID-19-Live-Tracker/',
   }
 ]
 
