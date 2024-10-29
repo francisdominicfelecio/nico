@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/nicco.jpg'
 
 const About = () => {
     return (
@@ -17,10 +17,7 @@ const About = () => {
 
         <div className='about__content'>
         <p>
-        Hey there! I'm Akash, a 21-year-old web developer from Agra. Currently pursuing my Bachelor's degree
-        in Computer Science Engineering, I possess a profound passion for technology and web development.
-        The power of technology to connect individuals across the globe is an aspect that truly ignites my enthusiasm.
-        I find technology endlessly fascinating.I take immense pleasure in crafting functional and visually
+        Hey there! I'm Ico, a 20-year-old web developer from Iloilo. I take immense pleasure in crafting functional and visually
         appealing websites that leave a lasting impression.
         </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>

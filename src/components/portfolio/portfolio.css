@@ -1,50 +1,25 @@
-.portfolio__container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
-}
-
-.portfolio__item{
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-}
-
-.portfolio__item:hover{
-    border-color: var(--color-primary-variant);
-    background: transparent;
-}
-
-.portfolio__item-image{
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
-
-.portfolio__item h3{
-    margin: 1.2rem 0 2rem;
-}
-
-.portfolio__item-cta{
+.portfolio__container {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-
-/* MEDIA QUERIES (Medium devices) */
-@media screen and (max-width:1024px){
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
-}
-
-/* MEDIA QUERIES (Small devices) */
-@media screen and (max-width:600px){
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-}
+    flex-wrap: wrap;
+    justify-content: center; /* Centers all items within the container */
+  }
+  
+  .portfolio__item {
+    text-align: center; /* Centers text inside each item */
+    max-width: 900px; /* Adjust width as needed */
+    margin: 1rem; /* Adds some spacing between items */
+  }
+  
+  .portfolio__item-image {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if you add height) */
+    margin-bottom: 1rem; /* Adds spacing below the image */
+  }
+  
+  .portfolio__item-image img {
+    width: 100%; /* Makes the image responsive */
+    height: auto;
+    border-radius: 10px; /* Optional: adds rounded corners */
+  }
+  
